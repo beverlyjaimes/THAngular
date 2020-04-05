@@ -13,6 +13,7 @@ export class AppComponent {
     activeEmoji: string; 
     changeEmoji() {
          this.activeEmoji = this.emoji[Math.floor(Math.random() * this.emoji.length)];
+         console.log('change');
     }
     
 }
