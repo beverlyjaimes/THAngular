@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   
 })
 export class AppComponent {
-
+    // property needs to be first defined in the class
+    emoji: string[];
+    constructor(){
+        this.emoji = ['👽', ' 💀', ' 🧠'];
+    }
 }
